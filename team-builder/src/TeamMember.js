@@ -8,7 +8,8 @@ const TeamMember = (props) => {
                     <div>
                         <h2>Name: {team.name}</h2>
                         <span>Email: {team.email}</span><br></br>
-                        <span>Title: {team.job}</span>
+                        <span>Title: {team.job}</span><br></br>
+                        <button>Edit</button>
                     </div>
                 )
             })}
