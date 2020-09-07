@@ -29,3 +29,5 @@ const TeamList = [
         color: 'black'
     }
 ]
+
+export default TeamList;
