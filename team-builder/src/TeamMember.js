@@ -6,9 +6,9 @@ const TeamMember = (props) => {
             {props.team.map((team) => {
                 return (
                     <div>
-                        <h2>{team.name}</h2>
+                        <h2>Name: {team.name}</h2>
                         <span>Age: {team.age}</span><br></br>
-                        <span>Favorite Color: {team.color}</span>
+                        <span>Color: {team.color}</span>
                     </div>
                 )
             })}

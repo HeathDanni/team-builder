@@ -9,6 +9,16 @@ function App() {
  const [ team, setTeam ] = useState(TeamList);
  console.log(team);
 
+ const addNewMember = (data) => {
+   const newMember = {
+     Name: data.name,
+     Age: data.age,
+     Color: data.color
+   };
+
+   setTeam([...team, newMember]);
+ }
+
   return (
 
     <div className="App">
