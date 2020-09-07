@@ -7,23 +7,22 @@ import TeamForm from './TeamForm';
 
 function App() {
  const [ team, setTeam ] = useState(TeamList);
- console.log(team);
 
- const addNewMember = (data) => {
-   const newMember = {
-     Name: data.name,
-     Age: data.age,
-     Color: data.color
-   };
+  const addNewMember = (memberData) => {
+    const newMember = {
+      name: memberData.name,
+      email: memberData.email,
+      job: memberData.job
+    }
 
-   setTeam([...team, newMember]);
- }
-
+    setTeam([...team, newMember]);
+  };
+ 
   return (
 
     <div className="App">
       <h1>My Team</h1>
-          <TeamForm/>
+          <TeamForm addNewMember={addNewMember}/>
           <TeamMember team={team} />
     </div>
   );

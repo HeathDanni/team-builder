@@ -1,32 +1,37 @@
 const TeamList = [
     {
+        id: 0,
         name: 'Heather',
-        age: 35,
-        color: 'blue'
+        email: 'heather@email.com',
+        job: 'web developer'
     },
 
     {
+        id: 1,
         name: 'Lonnie',
-        age: 42,
-        color: 'green'
+        email: 'lonnie@email.com',
+        job: 'entrepreneur'
     },
 
-    {
+    {   
+        id: 2,
         name: 'Noa',
-        age: 14,
-        color: 'purple'
+        email: 'noa@email.com',
+        job: 'artist'
     },
 
     {
+        id: 3,
         name: 'Raine',
-        age: 13,
-        color: 'yellow'
+        email: 'raine@gmail.com',
+        job: 'engineer'
     },
 
     {
+        id: 4,
         name: 'Saiya',
-        age: 13,
-        color: 'black'
+        email: 'saiya@gmail.com',
+        job: 'veterinarian'
     }
 ]
 

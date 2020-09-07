@@ -7,8 +7,8 @@ const TeamMember = (props) => {
                 return (
                     <div>
                         <h2>Name: {team.name}</h2>
-                        <span>Age: {team.age}</span><br></br>
-                        <span>Color: {team.color}</span>
+                        <span>Email: {team.email}</span><br></br>
+                        <span>Title: {team.job}</span>
                     </div>
                 )
             })}
